@@ -175,11 +175,19 @@
       margin-block: 1.5rem;
     }
   }
+
+  @media screen and (max-width: 720px) {
+    .push-phone{
+        margin-top: 60px;
+    }
+    
+}
 </style>
 
 <main class="main">
   <div class="content">
     <div class="left-side">
+      <div class="push-phone">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 982 239"
@@ -225,6 +233,7 @@
           <clipPath id="a"><path fill="#fff" d="M0 0h982v239H0z" /></clipPath>
         </defs>
       </svg>
+      </div>
       <h1>Hello, {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
     </div>
